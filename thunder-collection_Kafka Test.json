@@ -1,0 +1,92 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Kafka Test",
+    "dateExported": "2024-05-17T15:41:51.114Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f9c8dabe-29bc-47b5-8d42-bde0e3073410",
+            "colId": "f6957662-ce68-470c-9563-444be7f3c29d",
+            "containerId": "",
+            "name": "Get Version - Kafka PubSub",
+            "url": "http://localhost:8092/version",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-06T13:28:27.122Z",
+            "modified": "2024-05-17T14:16:57.429Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d002589f-dcaf-4148-b72a-0f5c9cfccad5",
+            "colId": "f6957662-ce68-470c-9563-444be7f3c29d",
+            "containerId": "",
+            "name": "Post Username - Kafka PubSub",
+            "url": "http://localhost:8092/user?username=Usuario 2&fullname=Nome completo do Usuario 2&document=234554",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-06T13:28:27.123Z",
+            "modified": "2024-05-17T14:17:13.394Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "username",
+                    "value": "Usuario 2",
+                    "isPath": false
+                },
+                {
+                    "name": "fullname",
+                    "value": "Nome completo do Usuario 2",
+                    "isPath": false
+                },
+                {
+                    "name": "document",
+                    "value": "234554",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "4a6929cc-b043-465b-b547-f8ed5b388d53",
+            "colId": "f6957662-ce68-470c-9563-444be7f3c29d",
+            "containerId": "",
+            "name": "Post Username - Kafka PubSub - Looping",
+            "url": "http://localhost:8092/looping",
+            "method": "POST",
+            "sortNum": 25000,
+            "created": "2024-05-17T15:01:48.763Z",
+            "modified": "2024-05-17T15:03:23.176Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "50268a4e-d61a-4d30-9dd7-d18d8a05828e",
+            "colId": "f6957662-ce68-470c-9563-444be7f3c29d",
+            "containerId": "",
+            "name": "Post Address",
+            "url": "http://localhost:8080/address?username=sismico&address=Faria Pereira",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-06T13:28:27.124Z",
+            "modified": "2024-05-17T15:12:18.259Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "username",
+                    "value": "sismico",
+                    "isPath": false
+                },
+                {
+                    "name": "address",
+                    "value": "Faria Pereira",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
